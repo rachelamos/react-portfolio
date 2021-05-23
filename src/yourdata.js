@@ -17,7 +17,7 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Rachel",
   headerTagline: [
     //Line 1 For Header
     "Building digital",
@@ -28,24 +28,24 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Full Stack Web Developer with a background in writing, project management, and logistics. Passionate learner and effective communicator with a knack for pushing projects to completion.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "rachelamos35@gmail.com",
 
   // End Header Details -----------------------
 
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "WeekDaze", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Use WeekDaze to store and keep track of your job applications' progress. Built using Handlebars, Chart.js, MySQL, Node.js, and Express.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://arcane-harbor-21800.herokuapp.com/",
     },
     {
       title: "Project Two", //Project Title - Add Your Project Title Here
