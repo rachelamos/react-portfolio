@@ -3,14 +3,17 @@ import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
 import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+// import designIcon from "./images/design.svg"
+// import codeIcon from "./images/code.svg"
+import nodeIcon from "./images/node-js-black.svg"
+import profilePic from "./images/rachelamos.jpg"
+import expressIcon from "./images/expressjs.png"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+// import codepenIcon from "./images/codepen.svg"
+// import dribbbleIcon from "./images/dribbble.svg"
+// import instagramIcon from "./images/instagram.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -20,11 +23,11 @@ export default {
   name: "Rachel",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    // "Thanks for viewing my portfolio",
     //Line 2 For Header
-    "products, brands,",
+    "Welcome to my portfolio.",
     //Line 3 For Header
-    "and experience",
+    // "Take a look below at my background and projects.",
   ],
   //   Header Paragraph
   headerParagraph:
@@ -48,54 +51,54 @@ export default {
       url: "https://arcane-harbor-21800.herokuapp.com/",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Vacation Planner", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Vacation Planner allows users to plan their vacations while also easing decision fatigue in this easy-to-use application.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://damiandeleon.github.io/vacation_planner/",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Budget Tracker", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Budget Tracker is an app that allows users to track their expenses and deposits both online and offline using IndexedDB, a manifest worker, and a service-worker file.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://mysterious-thicket-33753.herokuapp.com/",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Tech Blog", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "This app uses Node.js, Express, MySQL, Handlebars, and Sequelize to create a CMS-style blog, not unlike Wordpress. Users can publish posts and comment on posts.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://salty-ocean-05546.herokuapp.com/",
     },
     {
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "Workday Planner", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "This application allows you to plan your work day by adding notes to hour timeblocks.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      //Project URL - Add Your Project Url Here
+      url: "https://rachelamos.github.io/workDayPlanner/",
+    },
+    {
+      title: "Workout Tracker", //Project Title - Add Your Project Title Here
+      para:
+        "Workout-Tracker is an app that allows users to track their workout progress and reach their fitness goals more quickly using Express, MongoDB, and Mongoose.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://limitless-basin-76792.herokuapp.com/?id=608eff05f4d63200155d3d4a",
     },
 
     /*
@@ -119,7 +122,7 @@ export default {
   aboutParaThree:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+  profilePic,
 
   //   End About Section ---------------------
 
@@ -130,33 +133,23 @@ export default {
   skills: [
     {
       img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      // para:
+      //   "HTML5",
     },
     {
       img: cssIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
       img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
       img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: expressIcon,
     },
     {
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: nodeIcon,
     },
   ],
 
@@ -171,22 +164,22 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Let's work together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
-    },
+    { img: githubIcon, url: "https://github.com/rachelamos" },
+    // {
+    //   // img: codepenIcon,
+    //   // url: "https://www.codepen.com/",
+    // },
+    // {
+    //   // img: dribbbleIcon,
+    //   // url: "https://dribbble.com/chetanverma",
+    // },
+    // {
+    //   // img: instagramIcon,
+    //   // url: "https://www.instagram.com/",
+    // },
   ],
 
   // End Contact Section ---------------
