@@ -31,7 +31,8 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Full Stack Web Developer with a background in writing, project management, and logistics. Passionate learner and effective communicator with a knack for pushing projects to completion.",
+    // "Full Stack Web Developer with a background in writing, project management, and logistics. Passionate learner and effective communicator with a knack for pushing projects to completion.",
+    "I love the challenge of transforming ideas into something concrete and beautiful. I use HTML, CSS, JavaScript, and React to get it done.",
 
   //Contact Email
   contactEmail: "rachelamos35@gmail.com",
@@ -116,11 +117,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "I began studying web development as a mom in her 30s because I love a challenge. Working on a team to solve a client’s problem is a thrill for me—I thrive on the process of leaning on each other’s strengths to create order out of chaos and something beautiful out of nothing.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "My background in writing, logistics, and project management has helped me develop a reputation for pushing projects to completion and striving for clean, dry code.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "Thanks for visiting my portfolio—please take a look at my past projects and current skill-set. I’d love to connect and help you create a solution for whatever problem is in front of you.",
   aboutImage:
   profilePic,
 
@@ -133,23 +134,33 @@ export default {
   skills: [
     {
       img: htmlIcon,
-      // para:
-      //   "HTML5",
+      para:
+        "HTML5",
     },
     {
       img: cssIcon,
+      para:
+        "CSS3"
     },
     {
       img: jsIcon,
+      para:
+        "JavaScript"
     },
     {
       img: reactIcon,
+      para:
+        "React"
     },
     {
       img: expressIcon,
+      para:
+        "Express"
     },
     {
       img: nodeIcon,
+      para:
+        "Node"
     },
   ],
 
@@ -157,9 +168,9 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  // promotionHeading: "Heading",
+  // promotionPara:
+  //   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   // End Promotion Section -----------------
 
   //   Contact Section --------------

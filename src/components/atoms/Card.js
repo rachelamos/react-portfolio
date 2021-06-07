@@ -20,7 +20,17 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           rel="noopener noreferrer"
           className="btn"
         >
-          Explore
+          View Page
+        </a>
+        <br></br>
+        <br></br>
+        <a
+          href={projectLink ? projectLink : "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+        >
+          Source Code
         </a>
       </div>
     </div>
